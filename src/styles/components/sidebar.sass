@@ -1,0 +1,71 @@
+@use '../vinarabel'
+
+#side
+
+    background-color: vinarabel.$bg-color-s2
+    flex: 2 1 0
+    border-radius: vinarabel.$container-boder
+    display: flex
+    flex-direction: column
+    align-items: center
+    position: relative
+    padding: 3rem 0
+    width: 100vw
+
+    img
+        max-width: 15rem
+        border-radius: vinarabel.$container-boder
+        position: absolute
+        margin-top: -2rem
+
+.title
+    color: vinarabel.$text-color-sg
+    background-color: vinarabel.$bg-color
+    border-radius: 5px
+    margin-top: 16rem
+    padding: .8rem 1.2rem
+    margin-bottom: 20px
+
+.btn
+    padding: 1rem 1.2rem
+    color: vinarabel.$text-color
+    text-decoration: none
+    background: vinarabel.$gradient
+    border-radius: 3rem
+    margin-bottom: 10px
+.li
+    width: 20%
+#information
+    background-color: vinarabel.$bg-color-s2
+    color: vinarabel.$text-color
+    display: flex
+    flex-direction: column
+    padding: 1rem
+    margin-bottom: 2rem
+    text-align: center
+    width: 80%
+.info-card
+    border-bottom: 1px solid #444
+    gap: 1rem
+    padding: .8rem
+    h3
+        color: #CCC
+        font-size: .8rem
+        margin-bottom: .5rem
+    p
+        font-weight: bold
+        color: #FFF
+        @media ( max-width: 445px)
+            padding-right: 40px
+
+.icon
+    display: flex
+    font-size: 2.5rem
+    justify-content: center
+    gap: 1rem
+.git
+    color: #111
+    justify-content: center
+    align-items: center
+.lik
+    color: #0072b1

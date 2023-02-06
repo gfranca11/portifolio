@@ -1,0 +1,83 @@
+@use '../vinarabel'
+#main
+    background-color: vinarabel.$bg-color
+    flex: 1 1 0
+    border-radius: vinarabel.$container-boder
+    padding: 3rem
+    ba
+    
+    
+    @media ( max-width:615px)
+        
+    
+.about
+    display: flex
+    flex-direction: column
+    
+      
+h2
+    color: #FFF
+    font-size: 2.2rem
+    margin-bottom: 1.3rem
+    align-items: center
+    justify-content: start
+    gap: 1rem
+
+p
+    color: #FfF
+    margin-bottom: 1rem
+    line-height: 1.5rem
+    padding: 0 1rem
+
+.linha
+
+    display: flex
+    gap: 1rem
+
+    span
+        margin-top: 20px
+
+        content: ""
+        background: vinarabel.$gradient
+        height: 3px
+        width: 30%
+.cardc
+
+    display: grid
+    grid-template-columns: repeat(3,1fr)
+    gap: 2rem
+    @media ( max-width: 865px )
+        grid-template-columns: repeat(2,1fr)
+
+    @media ( max-width:615px)
+        grid-template-columns: repeat(1,1fr)
+
+.card
+    display: flex
+    flex-direction: column
+    align-items: center
+    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.3)
+    padding: 1rem
+    border-radius: 0.5rem
+    cursor: pointer
+    img
+        width: 200px
+    &:hover
+        transition: .3s all
+        box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.6)
+        background-color: vinarabel.$body-bg-color
+p
+    margin-top: 1rem
+    margin-bottom: 1rem
+.mercado
+    margin-bottom: 3.5rem
+
+.fifa
+    margin-bottom: 1.8rem
+
+.ls
+
+    margin: auto
+    display: block
+    width: 170px
+    margin-top: 60px
